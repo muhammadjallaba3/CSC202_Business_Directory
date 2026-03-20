@@ -1,5 +1,5 @@
 # 📍 Local Business Directory
-> **CSC 202 Final Project** | *Building for a Trillion-Dollar Future*
+> **CSC 202 CA Project** | *Building for a Trillion-Dollar Future*
 
 ### 🎓 Student Information
 | Field | Details |
