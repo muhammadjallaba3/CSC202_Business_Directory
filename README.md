@@ -1,5 +1,5 @@
 # 📍 Local Business Directory
-> **CSC 202 CA Project** | *Building for a Trillion-Dollar Future*
+> **CSC 202 Final Project** | *Building for a Trillion-Dollar Future*
 
 ### 🎓 Student Information
 | Field | Details |
@@ -28,3 +28,8 @@ The goal of this directory is to help local businesses in **Kano, Nigeria**, gai
 1. **Install Flask**: `pip install Flask`
 2. **Run the app**: `python app.py`
 3. **Visit**: `http://127.0.0.1:5000` in your browser.
+### 🛠️ Tech Stack: Python, Flask, HTML5, CSS3, Git
+#### 📚 Data Structures: Used a Python List as a Stack (LIFO) for history.
+### 🔮 Future Improvements: SQLite Database integration and User Authentication.
+### ✉️ Contact: Reach out via GitHub for collaborations. 
+hhdhd
