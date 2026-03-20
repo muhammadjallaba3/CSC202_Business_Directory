@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Business</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 40px;">
+    <h1>Add a New Business</h1>
+    
+    <form method="POST" action="/add">
+        <label>Business Name:</label><br>
+        <input type="text" name="name" required style="margin-bottom: 15px; padding: 5px;"><br>
+
+        <label>Category (e.g., Egg Supply, Travel Agency, Tech):</label><br>
+        <input type="text" name="category" required style="margin-bottom: 15px; padding: 5px;"><br>
+
+        <label>Location:</label><br>
+        <input type="text" name="location" required style="margin-bottom: 15px; padding: 5px;"><br>
+
+        <button type="submit" style="padding: 10px; background: green; color: white; border: none; border-radius: 5px; cursor: pointer;">Save Business</button>
+    </form>
+    
+    <br>
+    <a href="/">Back to Directory</a>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Local Business Directory</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 40px;">
+    <h1>Local Business Directory</h1>
+    <a href="/add" style="padding: 10px; background: blue; color: white; text-decoration: none; border-radius: 5px;">+ Add a New Business</a>
+    <hr style="margin-top: 20px;">
+
+    <h2>Recently Added (From the Stack)</h2>
+    {% if recent %}
+        <p style="color: green;"><b>{{ recent.name }}</b> - {{ recent.category }} ({{ recent.location }})</p>
+    {% else %}
+        <p>No businesses added yet.</p>
+    {% endif %}
+
+    <h2>All Businesses</h2>
+    <ul>
+    {% for biz in businesses %}
+        <li style="margin-bottom: 10px;">{{ biz.get_summary() }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
