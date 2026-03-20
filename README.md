@@ -32,4 +32,3 @@ The goal of this directory is to help local businesses in **Kano, Nigeria**, gai
 #### 📚 Data Structures: Used a Python List as a Stack (LIFO) for history.
 ### 🔮 Future Improvements: SQLite Database integration and User Authentication.
 ### ✉️ Contact: Reach out via GitHub for collaborations. 
-hhdhd
